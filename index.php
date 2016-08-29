@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/bootstrap-theme.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="shortcut icon" href="img/favicon.ico">
         <!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">	
 		<!-- skin -->
 		<link rel="stylesheet" href="skin/default.css">
