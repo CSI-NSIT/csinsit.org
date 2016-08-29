@@ -1,0 +1,1 @@
+<style>body{ background-image: url('img/bg_index_transparent.png') !important; background-attachment: fixed; background-size: cover;background-color:#001941}</style>

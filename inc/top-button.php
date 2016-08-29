@@ -1,0 +1,6 @@
+<script type="text/javascript">$(document).ready(function(){$(window).scroll(function(){if($(this).scrollTop()>100){$(".drive-me-top-babe").fadeIn()}else{$(".drive-me-top-babe").fadeOut()}});$(".drive-me-top-babe").click(function(){$("html, body").animate({scrollTop:0},500);return false})})
+</script><style type="text/css">.drive-me-top-babe{background-color:#A4A4A4;width:40px;height:40px;text-align:center;position:fixed;z-index:100;display:none;right:10px;bottom:10px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;opacity:.75;filter:alpha(opacity=75)}
+</style><script>$(function(){$("a[href*=#]:not([href=#])").click(function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var e=$(this.hash);e=e.length?e:$("[name="+this.hash.slice(1)+"]");if(e.length){$("html,body").animate({scrollTop:e.offset().top},1e3);return false}}})})</script>
+<div class="drive-me-top-babe"><a href="#top">
+<i class="fa fa-angle-double-up" style="font-size:40px; color:black"></i></a>
+</div>

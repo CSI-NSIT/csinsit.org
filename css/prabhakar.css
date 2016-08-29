@@ -1,0 +1,512 @@
+/*try harder :P*/
+::selection {
+    background: #FFF200
+}
+body {
+    background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover
+}
+.navbar-mystyle {
+	background-image: url(http://www.csinsit.org/img/footBG.png);
+    border: none;
+    height: 0
+}
+.navbar-mystyle li {
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 0 0;
+	text-align: center;
+	cursor: pointer;
+	font-family: Futura, Century Gothic, AppleGothic, sans-serif;
+	font-weight: 0
+}
+.navbar-mystyle li a , .navbar-mystyle li a:visited {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease
+}
+.navbar-mystyle li a:hover {
+    color: #fff!important
+}
+.head-style a {
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+    color: #5A9599;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    font-family: Futura, Century Gothic, AppleGothic, sans-serif
+}
+.head-style a:hover {
+    text-decoration: none;
+    color: #fff!important
+}
+.modal-headers-edit {
+    color: #D5D5D5;
+    letter-spacing: 1px
+}
+.contact-icon {
+    margin: 20px;
+    font-size: 60px
+}
+.background-computers-home{
+	background-image: url(http://csinsit.org/img/bgcompts.png);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	opacity: 0.4;
+}
+.news-update-control {
+    padding-top: 30px;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    background-image: none!important
+}
+#news-update .item {
+    height: 85px;
+    text-align: center;
+    padding: 10px
+}
+#news-update .item p {
+    color: #D5D5D5;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 1px
+}
+.home-page-animation {
+    width: 98%;
+    padding-left: 2%;
+    padding-top: 10px
+}
+.home-page-animation a {
+    float: left;
+    width: 16.5%
+}
+.home-page-animation a:nth-child(odd) {
+    margin: 30px 0 -30px
+}
+.home-page-animation figure {
+    position: relative;
+    overflow: hidden;
+    margin: 5px;
+    background: #333
+}
+.home-page-animation figure img {
+    position: relative;
+    display: block;
+    width: 100%;
+    opacity: .7;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s
+}
+.home-page-animation figcaption {
+    position: absolute;
+    top: 0;
+    z-index: 11;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center
+}
+.home-page-animation figcaption h2 {
+    margin: 0 0 20px;
+    color: #003B97;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+    -webkit-transition: -webkit-transform .3s;
+    transition: transform .3s;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif
+}
+@-webkit-keyframes vibrate {
+    0% {
+        left: 0;
+        top: 0
+    }
+    50% {
+        left: 0;
+        top: 5px
+    }
+    100% {
+        left: 0;
+        top: 0
+    }
+}
+.home-page-animation figcaption p {
+    padding: 0 20px;
+    color: #252525;
+    font-size: 12px;
+    -webkit-transition: opacity .3s, -webkit-transform .3s;
+    transition: opacity .3s, transform .3s;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+.home-page-animation figcaption h2,
+.home-page-animation figcaption p {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px)
+}
+.home-page-animation figcaption,
+.home-page-animation figcaption h2,
+.home-page-animation figcaption p {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+.home-page-animation svg {
+    position: absolute;
+    top: -1px;
+    z-index: 10;
+    width: 100%;
+    height: 100%
+}
+.home-page-animation svg path {
+    fill: #fff
+}
+.home-page-animation a:hover figure img {
+    opacity: 1
+}
+.home-page-animation a:hover figcaption h2,
+.home-page-animation a:hover figcaption p {
+    -webkit-transform: translateY(0);
+    transform: translateY(0)
+}
+.home-page-animation a:hover figcaption h2 {
+    -webkit-animation: vibrate .3s linear infinite alternate;
+    animation: vibrate .3s linear infinite alternate;
+    -webkit-transition: -webkit-transform .3s;
+    transition: transform .3s
+}
+.home-page-animation a:hover figcaption p {
+    opacity: 0
+}
+@media screen and (max-width: 58em) {
+    .home-page-animation a {
+        width: 33.333%
+    }
+    .home-page-animation a:nth-child(odd) {
+        margin: 0
+    }
+    .home-page-animation a:nth-child(3n-1) {
+        margin: 30px 0 -30px
+    }
+}
+@media screen and (max-width: 45em) {
+    .home-page-animation {
+        max-width: 500px
+    }
+    .home-page-animation a {
+        width: 50%
+    }
+    .home-page-animation a:nth-child(3n-1) {
+        margin: 0
+    }
+    .home-page-animation a:nth-child(even) {
+        margin: 30px 0 -30px
+    }
+    .home-page-animation figcaption h2 {
+        margin-bottom: 0;
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px)
+    }
+    .home-page-animation figcaption p {
+        margin: 0;
+        padding: 0 10px
+    }
+}
+@media screen and (max-width: 27em) {
+    .home-page-animation {
+        max-width: 250px
+    }
+    .home-page-animation a {
+        width: 100%
+    }
+    .home-page-animation a:nth-child(even) {
+        margin: 0
+    }
+}
+.about-text {
+    padding: 20px 0 10px;
+    color: #fff;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+.pages-header {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #5F5F5F;
+    font-weight: 700
+}
+.pages-header-descp {
+    font-size: 18px;
+    text-align: justify;
+    padding: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: Futura, Century Gothic, AppleGothic, sans-serif
+}
+.section-tnt {
+    text-align: center
+}
+.section-tnt h2 {
+    margin: 0;
+    padding: 0 0 10px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+.section-tnt img {
+    width: 250px;
+    height: 250px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    border-radius: 125px;
+    margin: 10px
+}
+.section-tnt p {
+    text-align: justify;
+    font-size: 14px;
+    padding: 25px;
+    line-height: 25px
+}
+.section-ws-comp {
+    margin-bottom: 30px
+}
+.section-ws-comp .col-md-10 {
+    -webkit-border-top-left-radius: 40px;
+    -webkit-border-bottom-right-radius: 40px;
+    -moz-border-radius-topleft: 40px;
+    -moz-border-radius-bottomright: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 4px solid #CECECE;
+    padding: 40px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+.section-ws-comp h2 {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #424242;
+    text-shadow: 0 0 30px #fff
+}
+.section-ws-comp img {
+    max-height: 20px;
+    min-height: 200px;
+    text-align: center
+}
+.section-ws-comp .ws-comp-icon {
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+    color: #3B5998
+}
+.section-ws-comp .ws-comp-content {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 25px;
+    color: #424242
+}
+.section-ws-comp .ws-comp-content-info {
+    font-size: 20px;
+    line-height: 35px;
+    font-family: Futura, Century Gothic, AppleGothic, sans-serif;
+    color: #424242;
+    text-align: center
+}
+.section-ws-comp .ws-comp-content-info b {
+    color: #424242
+}
+.section-ws-comp .comp-active {
+    color: red;
+    font-size: 45px;
+    position: relative;
+    -webkit-animation: active-animation .4s infinite alternate;
+    animation: active-animation .4s infinite alternate
+}
+@-webkit-keyframes active-animation {
+    0% {
+        bottom: 0
+    }
+    50% {
+        bottom: 20px
+    }
+    100% {
+        bottom: 0
+    }
+}
+@keyframes active-animation {
+    0% {
+        bottom: 0
+    }
+    50% {
+        bottom: 20px
+    }
+    100% {
+        bottom: 0
+    }
+}
+.section-ws-comp .ws-comp-content-info a:hover {
+    text-decoration: none
+}
+.team-members-edit {
+    text-align: center;
+    padding: 10px
+}
+.team-members-edit img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+    border: 7px solid #fff
+}
+.team-members-edit img:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%)
+}
+.team-members-edit h1 {
+    margin: 0;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 0 0;
+    font-family: Futura, Century Gothic, AppleGothic, sans-serif;
+    text-align: center
+}
+.team-members-edit h2 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+.team-members-level {
+    text-align: center;
+    margin: 50px 0 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+.bnb-download-anm figure {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    margin: 25px auto
+}
+.bnb-download-anm figure img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    position: relative
+}
+.bnb-download-anm figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    background: #2A2A2A;
+    color: #CACACA;
+    font-weight: 700;
+    height: 120px;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform .4s, opacity .1s .3s;
+    -moz-transition: -moz-transform .4s, opacity .1s .3s;
+    transition: transform .4s, opacity .1s .3s
+}
+.bnb-download-anm figcaption h3 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif
+}
+.bnb-download-anm figcaption a {
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background: #CACACA;
+    color: #2A2A2A;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
+}
+.bnb-download-anm figcaption a:hover {
+    text-decoration: none;
+    background-color: #B1C7FF
+}
+.bnb-download-anm figure.cs-hover figcaption,
+.bnb-download-anm figure:hover figcaption {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: -webkit-transform .4s, opacity .1s;
+    -moz-transition: -moz-transform .4s, opacity .1s;
+    transition: transform .4s, opacity .1s
+}
+.home-traverse-mobile-buttons {
+    text-align: center
+}
+.home-traverse-mobile-buttons button {
+    padding: 2px 5px;
+    margin: 3px;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif
+}
+.wow-descp-text {
+    text-align: justify;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-size: 15px
+}
+.wow-descp-text i {
+    font-size: 35px;
+    margin: 5px;
+    color: #F20000
+}
