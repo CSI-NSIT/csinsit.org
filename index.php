@@ -30,12 +30,13 @@
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="fa fa-bars color-white"></span>
 					</button>
-					<h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">			CSI NSIT
-					</a></h1>
+					<h1>
+						<a class="navbar-brand" href="/" data-0="line-height:90px;" data-300="line-height:50px;">CSI NSIT</a>
+					</h1>
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
-						<li class="active"><a href="index.html">Home</a></li>
+						<li class="active"><a href="/">Home</a></li>
 						<li><a href="http://csinsit.org/techbytes/">Blog</a></li>
 						<li><a href="meet-the-team.php">Team</a></li>
 						<li><a href="#section-contact">Contact</a></li>
@@ -271,10 +272,11 @@
 				<div class="col-sm-12 align-center">
                     <ul class="social-network social-circle">
                         <!--<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>-->
-                        <li><a href="https://www.facebook.com/csinsit/?fref=ts" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.facebook.com/csinsit" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                         <!--<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>-->
                         <!--<li><a href="mailto:csi@nsitonline.in?subject=Enquiry" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>-->
-                        <li><a href="https://www.linkedin.com/groups/3050755/profile" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        <!-- <li><a href="https://www.linkedin.com/groups/3050755/profile" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li> -->
+                        <li><a href="https://github.com/CSI-NSIT/" class="icoGithub" title="GitHub"><i class="fa fa-github"></i></a></li>
                     </ul>				
 				</div>
 			</div>
