@@ -319,10 +319,11 @@
 				<div class="col-sm-12 align-center">
                     <ul class="social-network social-circle">
                         <!--<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>-->
-                        <li><a href="https://www.facebook.com/csinsit/?fref=ts" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.facebook.com/csinsit" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                         <!--<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>-->
                         <!--<li><a href="mailto:csi@nsitonline.in?subject=Enquiry" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>-->
-                        <li><a href="https://www.linkedin.com/groups/3050755/profile" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        <!-- <li><a href="https://www.linkedin.com/groups/3050755/profile" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li> -->
+                        <li><a href="https://github.com/CSI-NSIT/" class="icoGithub" title="GitHub"><i class="fa fa-github"></i></a></li>
                     </ul>				
 				</div>
 			</div>
