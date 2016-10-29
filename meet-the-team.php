@@ -60,7 +60,7 @@
       <li><a href="index.php">Home</a></li>
       <li><a href="http://csinsit.org/techbytes/">Blog</a></li>
       <li><a href="meet-the-team.php">Team</a></li>
-      <li><a href="index.php#section-contact">Contact</a></li>
+      
     </ul>
     <!--
     <div class="navbar-header navbar-right">
@@ -115,7 +115,7 @@
                 <div class="panel">
                     <div class="panel-body">
 <?php
-	$CURRENT_YEAR = 15;
+	$CURRENT_YEAR = 16;
 	for($i=$CURRENT_YEAR; $i>4; $i--){
 		$temp = $i+1;
 		if($i!=13 && $i!=7){

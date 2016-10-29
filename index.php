@@ -39,8 +39,7 @@
 						<li class="active"><a href="/">Home</a></li>
 						<li><a href="http://csinsit.org/techbytes/">Blog</a></li>
 						<li><a href="meet-the-team.php">Team</a></li>
-						<li><a href="#section-contact">Contact</a></li>
-					</ul>
+											</ul>
 				</div><!--/.navbar-collapse -->
 			</div>
 		</div>

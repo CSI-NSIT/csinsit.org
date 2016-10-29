@@ -44,7 +44,7 @@
       <li><a href="index.php">Home</a></li>
       <li><a href="http://csinsit.org/techbytes/">Blog</a></li>
       <li><a href="meet-the-team.php">Team</a></li>
-      <li><a href="index.php#section-contact">Contact</a></li>
+      
     </ul>
     <!--
     <div class="navbar-header navbar-right">
