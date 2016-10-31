@@ -74,8 +74,7 @@
 					    <br/><br/>
 						<!--<i class="fa fa-code fa-5x mar-bot20"></i>  -->
 						<h4 class="text-bold">Tech-N-Talk</h4></a>
-						<p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. 
-						Mei cu dicat voluptaria volumus.
+						<p>A platform to clear all queries, doubts and qualms, a budding tech enthusiast is often flooded with.
 						</p>
 					</div>
 				</div>
@@ -88,8 +87,7 @@
 						<!--<i class="fa fa-terminal fa-5x mar-bot20"></i>-->
 						<h4 class="text-bold">Bits-N-Bytes</h4>
 						</a>
-						<p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. 
-						Mei cu dicat voluptaria volumus.
+						<p>Bi-Annual Tech Magazine of CSI NSIT.
 						</p>
 					</div>
 				</div>
@@ -102,8 +100,7 @@
 					    <!--<i class="fa fa-bolt fa-5x mar-bot20"></i>-->
 						<h4 class="text-bold">Competitions</h4>
 						</a>
-						<p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. 
-						Mei cu dicat voluptaria volumus.
+						<p>Competitions organized by CSI NSIT that caters to various tech spheres-designing, web development along with cliché programming
 						</p>
 					</div>
 				</div>
@@ -122,8 +119,7 @@
 						<br/><br/><br/>
 						<h4 class="text-bold">Web Tutorials</h4>
 						</a>
-						<p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. 
-						Mei cu dicat voluptaria volumus.
+						<p>Do you want to make a website of your own? Here is a small help from our side for making you skilled enough for achieving that goal.
 						</p>
 					</div>
 				</div>
@@ -136,8 +132,7 @@
 						<!--<i class="fa fa-terminal fa-5x mar-bot20"></i>-->
 						<h4 class="text-bold">Workshops</h4>
 						</a>
-						<p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. 
-						Mei cu dicat voluptaria volumus.
+						<p>Workshops provide a glimpse outside of academia and link your thinking to industry.
 						</p>
 					</div>
 				</div>
@@ -150,8 +145,7 @@
 						<!--<i class="fa fa-bolt fa-5x mar-bot20"></i>-->
 						<h4 class="text-bold">Techelon</h4>
 						</a>
-						<p>Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. 
-						Mei cu dicat voluptaria volumus.
+						<p>Annual inter-college tech fest of CSI NSIT
 						</p>
 					</div>
 				</div>
